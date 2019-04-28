@@ -1,0 +1,4 @@
+<!--pages/index/index.wxml-->
+<import src="../../template/views/views.wxml"/>
+<template is="viewWithLeftAndRightImg" data='{{leftImg:"../image/richtext_1.png",title:"富文本编辑器(已弃用)",rightImg:"../image/right.png"}}' />
+<template is="viewWithLeftAndRightImg" data='{{leftImg:"../image/richtext_1.png",title:"富文本编辑器（组件）",rightImg:"../image/right.png",event:"goRichTextDemo"}}' />
